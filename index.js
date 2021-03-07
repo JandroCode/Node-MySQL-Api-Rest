@@ -8,10 +8,10 @@ app.use(express.json())
 
 //MySQL parámeters
 const connection = mysql.createConnection({
-    host:'eu-cdbr-west-03.cleardb.net',
-    user:'b88312b8ff21b3',
-    password:'a14802dd',
-    database:'heroku_b47455e2e03cf10?reconnect=true'
+    host:'bjezzhv2zj7sdlevnpkm-mysql.services.clever-cloud.com',
+    user:'uyniwvicp71gbqqo',
+    password:'RPk8W8qTUDDMtEsd9FB2',
+    database:'bjezzhv2zj7sdlevnpkm'
 });
 
 //Checking MySQL connection
