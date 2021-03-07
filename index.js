@@ -9,10 +9,10 @@ app.use(express.json())
 
 //MySQL parámeters
 const connection = mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'',
-    database:'test_node'
+    host:'eu-cdbr-west-03.cleardb.net',
+    user:'b88312b8ff21b3',
+    password:'a14802dd',
+    database:'heroku_b47455e2e03cf10?reconnect=true'
 });
 
 //Checking MySQL connection
